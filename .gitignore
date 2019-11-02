@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/dotnetcore,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=dotnetcore,visualstudiocode
+# Created by https://www.gitignore.io/api/dotnetcore,visualstudiocode,vim
+# Edit at https://www.gitignore.io/?templates=dotnetcore,visualstudiocode,vim
 
 ### DotnetCore ###
 # .NET Core build folders
@@ -11,6 +11,26 @@
 /node_modules
 /wwwroot/node_modules
 
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
 
 ### VisualStudioCode ###
 .vscode/*
@@ -23,4 +43,4 @@
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/dotnetcore,visualstudiocode
+# End of https://www.gitignore.io/api/dotnetcore,visualstudiocode,vim
